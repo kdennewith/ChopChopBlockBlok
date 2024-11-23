@@ -17,7 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- TextView for the Title -->
         <TextView
             android:id="@+id/newRecipeTitle"
             android:layout_width="wrap_content"
@@ -30,7 +29,6 @@
             android:layout_gravity="center" />
     </androidx.appcompat.widget.Toolbar>
 
-    <!-- Recipe Name Input Field -->
     <EditText
         android:id="@+id/recipeName"
         android:layout_width="0dp"
@@ -43,7 +41,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="20sp"/>
 
-    <!-- Ingredients Label -->
     <TextView
         android:id="@+id/ingredientsLabel"
         android:layout_width="wrap_content"
@@ -55,44 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
-    <!-- Ingredients Row: Ingredient Name, Amount, Dropdown -->
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/ingredientsRow"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/ingredientsLabel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="8dp">
 
-        <ScrollView
-            android:id="@+id/new_recipe_ingredient_name_scrollview"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:focusable="true"
-            android:clickable="true"
-            android:spinnerMode="dropdown"
-            android:isScrollContainer="true"
-            app:layout_constraintTop_toTopOf="@id/ingredientsRow"
-            app:layout_constraintStart_toStartOf="@id/ingredientsRow"
-            android:layout_marginStart="20dp"/>
-
-        <ScrollView
-            android:id="@+id/new_recipe_ingredient_amount_scrollview"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:focusable="true"
-            android:clickable="true"
-            android:spinnerMode="dropdown"
-            android:isScrollContainer="true"
-            app:layout_constraintTop_toTopOf="@id/ingredientsRow"
-            app:layout_constraintStart_toEndOf="@id/new_recipe_ingredient_name_scrollview"
-            android:layout_marginStart="20dp"/>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- Add Ingredient Button -->
     <ImageButton
@@ -103,7 +63,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        app:layout_constraintTop_toBottomOf="@id/ingredientsRow"
+        app:layout_constraintTop_toTopOf="@id/recipeName"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Description Field -->
@@ -119,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@id/addIngredientButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView" />
+        />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/create_recipe"
@@ -134,16 +94,6 @@
         app:cornerRadius="5sp"
         app:layout_constraintTop_toBottomOf="@id/description" />
 
-    <!-- Bottom Navigation Bar -->
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:itemIconTint="@color/tint"
-        app:itemTextColor="@color/textPrimary"
-        app:menu="@menu/bottom_nav_menu" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
