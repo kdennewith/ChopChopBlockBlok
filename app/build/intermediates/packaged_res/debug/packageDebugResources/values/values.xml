@@ -6,6 +6,8 @@
     <color name="tint">#6B42B4</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">RecipeBookGUI</string>
+    <string name="enter_recipe_name_new_recipe">Enter Recipe Name</string>
+    <string name="favorite">Favorite</string>
     <string name="home">Home</string>
     <string name="new_recipe">New Recipe</string>
     <string name="recipe">Recipe</string>

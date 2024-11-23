@@ -1,146 +1,162 @@
 [
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/layout_newrecipe_page.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/layout/newrecipe_page.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-mdpi_recipe.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-mdpi\\recipe.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_home.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/home.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\layout_newrecipe_page.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\layout\\newrecipe_page.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.recipebookgui.app-debug-34:/layout_newrecipe_page.xml.flat",
+        "source": "com.example.recipebookgui.app-main-36:/layout/newrecipe_page.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/drawable_home_icon.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/drawable/home_icon.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\layout_home_recycler_view_holder.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\layout\\home_recycler_view_holder.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_home.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/home.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-hdpi_recipe.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-hdpi\\recipe.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/layout_recipe_page.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/layout/recipe_page.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_recipe.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/recipe.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_recipe.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/recipe.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxhdpi_home.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxhdpi\\home.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_plus.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/plus.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xhdpi_plus.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xhdpi\\plus.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/layout/activity_main.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/xml_backup_rules.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\layout_home_page.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\layout\\home_page.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_plus.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/plus.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xhdpi_recipe.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xhdpi\\recipe.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_recipe.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/recipe.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\layout_recipe_page.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\layout\\recipe_page.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_recipe.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/recipe.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-hdpi_home.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-hdpi\\home.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_plus.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/plus.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_home.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/home.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-mdpi_plus.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-mdpi\\plus.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_recipe_icon.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\recipe_icon.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_home_icon.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\home_icon.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_home.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/home.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-hdpi_plus.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-hdpi\\plus.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/drawable_plus_sign_18.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/drawable/plus_sign_18.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_ic_favorite_outline.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\ic_favorite_outline.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/layout_home_page.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/layout/home_page.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_plus_sign_18.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\plus_sign_18.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/drawable_recipe_icon.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/drawable/recipe_icon.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxhdpi_plus.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxhdpi\\plus.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xhdpi_home.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xhdpi\\home.png"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-xxhdpi_plus.png.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-xxhdpi/plus.png"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.recipebookgui.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-mdpi_home.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-mdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\drawable_ic_favorite_filled.xml.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\drawable\\ic_favorite_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-debug-34:\\mipmap-xxhdpi_recipe.png.flat",
+        "source": "C:\\Users\\kdenn\\.gradle\\daemon\\8.4\\com.example.recipebookgui.app-main-36:\\mipmap-xxhdpi\\recipe.png"
     }
 ]

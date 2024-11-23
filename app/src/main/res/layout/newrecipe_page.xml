@@ -37,12 +37,10 @@
         android:layout_height="wrap_content"
         android:hint="@string/enter_recipe_name_new_recipe"
         android:padding="15dp"
-        android:background="edit_text_background"
         android:layout_marginHorizontal="16dp"
         app:layout_constraintTop_toBottomOf="@id/title_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintMarginTop="30dp"
         android:textSize="20sp"/>
 
     <!-- Ingredients Label -->
@@ -55,8 +53,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/recipeName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintMarginStart="30dp"
-        app:layout_constraintMarginTop="20dp" />
+        />
 
     <!-- Ingredients Row: Ingredient Name, Amount, Dropdown -->
     <androidx.constraintlayout.widget.ConstraintLayout
