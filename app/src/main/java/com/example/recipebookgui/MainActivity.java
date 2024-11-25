@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.view_container, new HomePage())
                     .commit();
+            bottomNavigationView.setSelectedItemId(R.id.home_page_icon);
         }
 
         /*
@@ -38,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
 
-            if (item.getItemId() == R.id.home_page) {
+            if (item.getItemId() == R.id.home_page_icon) {
                 selectedFragment = new HomePage();
-            } else if (item.getItemId() == R.id.recipe_page) {
+            } else if (item.getItemId() == R.id.recipe_page_icon) {
                 selectedFragment = new RecipePage();
-            } else if (item.getItemId() == R.id.new_recipe_page) {
+            } else if (item.getItemId() == R.id.new_recipe_page_icon) {
                 selectedFragment = new NewRecipePage();
             }
 
