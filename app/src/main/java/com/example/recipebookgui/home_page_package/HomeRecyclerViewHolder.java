@@ -1,4 +1,4 @@
-package com.example.recipebookgui;
+package com.example.recipebookgui.home_page_package;
 
 import android.view.View;
 import android.widget.ImageButton;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.recipebookgui.R;
 
 /**
  * This is the holder class that binds all the elements of home_recycler_view_holder.xml

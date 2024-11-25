@@ -1,4 +1,4 @@
-package com.example.recipebookgui;
+package com.example.recipebookgui.home_page_package;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,12 +12,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.Arrays;
-import java.util.List;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.recipebookgui.R;
 
 public class HomePage extends Fragment {
     Toolbar topBar;

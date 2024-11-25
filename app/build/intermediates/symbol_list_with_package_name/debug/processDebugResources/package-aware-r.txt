@@ -3620,6 +3620,7 @@ id home
 id homeAsUp
 id home_cardView
 id home_page
+id home_page_icon
 id homepage_recyclerview
 id homepage_searchbar
 id honorRequest
@@ -3729,6 +3730,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id newRecipeTitle
 id new_recipe_page
+id new_recipe_page_icon
 id noScroll
 id noState
 id none
@@ -3778,6 +3780,7 @@ id radio
 id ratio
 id recipeName
 id recipe_page
+id recipe_page_icon
 id rectangles
 id report_drawn
 id retreat

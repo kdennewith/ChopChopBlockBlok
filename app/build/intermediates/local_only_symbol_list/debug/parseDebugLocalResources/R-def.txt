@@ -22,14 +22,17 @@ id description
 id favorite_heart
 id home_cardView
 id home_page
+id home_page_icon
 id homepage_recyclerview
 id homepage_searchbar
 id ingredientsLabel
 id main
 id newRecipeTitle
 id new_recipe_page
+id new_recipe_page_icon
 id recipeName
 id recipe_page
+id recipe_page_icon
 id title_bar
 id title_bar_home
 id toolbar_title

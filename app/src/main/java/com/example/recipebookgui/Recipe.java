@@ -9,13 +9,14 @@ public class Recipe {
     private String imageSource;
     private List<Ingredient> ingredientList;
     private String description;
+    private boolean favorite;
 
-
-    public Recipe(List<Ingredient> ingredientList, String recipesName, String imageSource, String description) {
+    public Recipe(List<Ingredient> ingredientList, String recipesName, String imageSource, String description, boolean favorite) {
         this.recipesName = recipesName;
         this.imageSource = imageSource;
         this.ingredientList = ingredientList;
         this.description = description;
+        this.favorite = favorite;
     }
 
 
@@ -52,7 +53,14 @@ public class Recipe {
     }
 
     public String getInfo(){
-
         return"";
+    }
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 }
