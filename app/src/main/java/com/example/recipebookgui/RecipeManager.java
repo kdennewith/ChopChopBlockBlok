@@ -1,4 +1,4 @@
-package com.example.chopping_block;
+package com.example.recipebookgui;
 
 import android.content.Context;
 
@@ -22,21 +22,11 @@ public class RecipeManager {
         databaseReference = FirebaseDatabase.getInstance().getReference("recipes");
     }
 
-    //add a recipe to Firebase
-    public void addData(recipes recipe) {
-        databaseReference.push().setValue(recipe).addOnSuccessListener(aVoid -> {
-            //data successfully written to Firebase
-            Toast.makeText(context.getApplicationContext(), "Recipe added successfully!", Toast.LENGTH_SHORT).show();}).addOnFailureListener(e -> {
-            //handle write error
-            Toast.makeText(context.getApplicationContext(), "Failed to add recipe: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-        });
-    }
-
 
     //save data to firebase
-    public void saveRecipe(String recipeName, String description, List<Ingredient> ingredientsList, String recipeImage) {
+    public void saveRecipe(List<Ingredient> ingredientsList, String recipesName, String imageSource, String description, boolean favorite) {
         //create a new recipe object
-        recipes newRecipe = new recipes(recipeName, description, ingredientsList, recipeImage);
+        Recipe newRecipe = new Recipe(ingredientsList, recipesName, imageSource, description, favorite);
 
         //push recipe data to Firebase
         DatabaseReference recipeRef = FirebaseDatabase.getInstance().getReference("recipes");
@@ -50,29 +40,29 @@ public class RecipeManager {
             }
         });
     }
-
     //read recipes from Firebase
     public void readData() {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                List<recipes> recipes = new ArrayList<>();
+                List<Recipe> recipes = new ArrayList<>();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                    recipes recipe = snapshot.getValue(recipes.class);
-                    if (recipe != null) {
+                    Recipe recipe = snapshot.getValue(Recipe.class);
+                    if ( recipe != null) {
                         recipes.add(recipe);
                     }
                 }
-                // recipes format of [recipe image from firebase] - Title from Firebase \n - description from firebase
+                //  recipes format of [recipe image from firebase] - Title from Firebase \n - description from firebase
                 System.out.println("Recipes retrieved: " + recipes.size());
-                for (recipes r : recipes) {
-                    System.out.println("Title: " + r.getTitle() + ", Description: " + r.getDescription());
+                for (Recipe r : recipes) {
+                    //just print info - next update to reflect xml
+                    System.out.println("Title: " + r.getRecipesName() + ", Description: " + r.getDescription());
                 }
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                //  handle any errors that come
+                //  handle any errors that come by showing message
                 System.err.println("Error reading data -  " + databaseError.getMessage());
             }
         });

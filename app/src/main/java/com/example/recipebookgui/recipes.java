@@ -1,4 +1,4 @@
-package com.example.chopping_block;
+package com.example.recipebookgui;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class recipes {
 
     //empty constructor required for Firebase Realtime Database
     public recipes() {}
-
+    //same as Recipe but no Favorites functionality - can merge to just Recipe
     public recipes(String title, String description, List<Ingredient> ingredients, String photoUrl) {
         this.title = title;
         this.description = description;
@@ -20,7 +20,7 @@ public class recipes {
         this.photoUrl = photoUrl;
     }
 
-    // Getters and setters
+
     public String getPhotoUrl() {
         return photoUrl;
     }

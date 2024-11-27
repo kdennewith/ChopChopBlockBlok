@@ -1,14 +1,14 @@
-package com.example.chopping_block;
+package com.example.recipebookgui;
 
 import android.content.Context;
 import android.widget.Toast;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
-import
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,13 +21,13 @@ public class NewRecipe extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_recipe);
+        setContentView(R.layout.newrecipe_page);
 
-        //initialize EditText fields and layout from the layout resource
+        /*
         recipeNameEditText = findViewById(R.id.recipe_name);
         descriptionEditText = findViewById(R.id.recipe_description);
         ingredientsLayout = findViewById(R.id.ingredients_layout);
-
+    */
         //initialize the RecipeManager to manage recipe saving
         recipeManager = new RecipeManager(this);
 
@@ -68,19 +68,22 @@ public class NewRecipe extends AppCompatActivity {
             String name = ingredientName.getText().toString();
             String units = ingredientUnits.getText().toString();
 
+            //check if both fields are filled
             if (!name.isEmpty() && !units.isEmpty()) {
-                ingredientsList.add(new Ingredient(name, units));
+                //parse the amount from the string to integer and create an Ingredient object
+                int amount = Integer.parseInt(units); // assuming unit is entered as integer for now
+                ingredientsList.add(new Ingredient(name, amount, "unit")); //replace "unit" with actual unit if needed
             } else {
+                // show message if any ingredient field is empty - which shouldnt happen
                 Toast.makeText(this, "Please fill in all ingredient fields.", Toast.LENGTH_SHORT).show();
                 return;
             }
         }
-
         //replaced with a user-uploaded image later
-        String recipeImage = "img1"; // You may want to handle this differently, like using an image picker
+        String recipeImage = "img1"; //image picker here**
 
         //save the recipe to Firebase using RecipeManager
-        recipeManager.saveRecipe(recipeName, description, ingredientsList, recipeImage);
+        recipeManager.saveRecipe(ingredientsList, description, recipeName, recipeImage, false);
 
     }
 }
