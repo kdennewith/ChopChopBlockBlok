@@ -23,6 +23,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\ColeM\\OneDrive\\Documents\\Central 2024 Fall\\ChoppingBlock_home\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "450"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "3382",
+                        "endLines": "58",
+                        "endColumns": "12",
+                        "endOffsets": "3718"
+                    }
+                },
+                {
                     "source": "C:\\Users\\ColeM\\.gradle\\caches\\transforms-3\\d281f7c26920af005294955b8b2174b7\\transformed\\material-1.13.0-alpha07\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
@@ -33,12 +52,12 @@
                         "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
                     },
                     "to": {
-                        "startLines": "53,56,60,64,67,70,73,76,79,83",
+                        "startLines": "59,62,66,70,73,76,79,82,85,89",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3382,3598,3740,3901,4111,4318,4525,4728,4930,5195",
-                        "endLines": "55,59,63,66,69,72,75,78,82,86",
+                        "startOffsets": "3723,3939,4081,4242,4452,4659,4866,5069,5271,5536",
+                        "endLines": "61,65,69,72,75,78,81,84,88,92",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3593,3735,3896,4106,4313,4520,4723,4925,5190,5463"
+                        "endOffsets": "3934,4076,4237,4447,4654,4861,5064,5266,5531,5804"
                     }
                 },
                 {

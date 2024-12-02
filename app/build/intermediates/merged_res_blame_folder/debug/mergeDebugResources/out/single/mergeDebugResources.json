@@ -24,6 +24,10 @@
         "source": "com.example.recipebookgui.app-main-37:/drawable/ic_favorite_filled.xml"
     },
     {
+        "merged": "com.example.recipebookgui.app-debug-35:/layout_fragment_first.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/layout/fragment_first.xml"
+    },
+    {
         "merged": "com.example.recipebookgui.app-debug-35:/drawable_home_icon.xml.flat",
         "source": "com.example.recipebookgui.app-main-37:/drawable/home_icon.xml"
     },
@@ -60,12 +64,16 @@
         "source": "com.example.recipebookgui.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.recipebookgui.app-debug-35:/mipmap-xhdpi_recipe.png.flat",
+        "source": "com.example.recipebookgui.app-main-37:/mipmap-xhdpi/recipe.png"
+    },
+    {
         "merged": "com.example.recipebookgui.app-debug-35:/layout_activity_main.xml.flat",
         "source": "com.example.recipebookgui.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.recipebookgui.app-debug-35:/mipmap-xhdpi_recipe.png.flat",
-        "source": "com.example.recipebookgui.app-main-37:/mipmap-xhdpi/recipe.png"
+        "merged": "com.example.recipebookgui.app-debug-35:/layout_fragment_second.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/layout/fragment_second.xml"
     },
     {
         "merged": "com.example.recipebookgui.app-debug-35:/drawable_ic_favorite_outline.xml.flat",
@@ -120,6 +128,10 @@
         "source": "com.example.recipebookgui.app-main-37:/mipmap-xxhdpi/home.png"
     },
     {
+        "merged": "com.example.recipebookgui.app-debug-35:/menu_menu_main.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/menu/menu_main.xml"
+    },
+    {
         "merged": "com.example.recipebookgui.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.recipebookgui.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -140,6 +152,10 @@
         "source": "com.example.recipebookgui.app-main-37:/drawable/plus_sign_18.xml"
     },
     {
+        "merged": "com.example.recipebookgui.app-debug-35:/layout_content_main.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/layout/content_main.xml"
+    },
+    {
         "merged": "com.example.recipebookgui.app-debug-35:/menu_bottom_nav_menu.xml.flat",
         "source": "com.example.recipebookgui.app-main-37:/menu/bottom_nav_menu.xml"
     },
@@ -154,5 +170,9 @@
     {
         "merged": "com.example.recipebookgui.app-debug-35:/mipmap-xxhdpi_plus.png.flat",
         "source": "com.example.recipebookgui.app-main-37:/mipmap-xxhdpi/plus.png"
+    },
+    {
+        "merged": "com.example.recipebookgui.app-debug-35:/navigation_nav_graph.xml.flat",
+        "source": "com.example.recipebookgui.app-main-37:/navigation/nav_graph.xml"
     }
 ]

@@ -2,7 +2,8 @@ package com.example.recipebookgui;
 
 import android.content.Context;
 import android.widget.Toast;
-
+import android.widget.ImageButton;
+import com.google.android.material.button.MaterialButton;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -23,16 +24,23 @@ public class NewRecipe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newrecipe_page);
 
-        /*
+
         recipeNameEditText = findViewById(R.id.recipe_name);
-        descriptionEditText = findViewById(R.id.recipe_description);
+        descriptionEditText = findViewById(R.id.description);
         ingredientsLayout = findViewById(R.id.ingredients_layout);
-    */
+
         //initialize the RecipeManager to manage recipe saving
         recipeManager = new RecipeManager(this);
 
         //add initial ingredient fields dynamically
         addIngredientFields();
+
+        ImageButton addIngredientButton = findViewById(R.id.addIngredientButton);
+        addIngredientButton.setOnClickListener(view -> addIngredientFields());
+
+        //handle the "Create Recipe" button
+        MaterialButton createRecipeButton = findViewById(R.id.create_recipe);
+        createRecipeButton.setOnClickListener(view -> saveRecipe());
     }
 
     // add ingredient input fields
@@ -70,11 +78,15 @@ public class NewRecipe extends AppCompatActivity {
 
             //check if both fields are filled
             if (!name.isEmpty() && !units.isEmpty()) {
-                //parse the amount from the string to integer and create an Ingredient object
-                int amount = Integer.parseInt(units); // assuming unit is entered as integer for now
-                ingredientsList.add(new Ingredient(name, amount, "unit")); //replace "unit" with actual unit if needed
+                try {
+                    int amount = Integer.parseInt(units); //parse units as integer
+                    Ingredient x = new Ingredient(name, amount, "units");
+                    ingredientsList.add(x); //replace "unit" with actual unit if needed
+                } catch (NumberFormatException e) {
+                    Toast.makeText(this, "Please enter a valid number for units.", Toast.LENGTH_SHORT).show();
+                    return;
+                }
             } else {
-                // show message if any ingredient field is empty - which shouldnt happen
                 Toast.makeText(this, "Please fill in all ingredient fields.", Toast.LENGTH_SHORT).show();
                 return;
             }
@@ -85,5 +97,8 @@ public class NewRecipe extends AppCompatActivity {
         //save the recipe to Firebase using RecipeManager
         recipeManager.saveRecipe(ingredientsList, description, recipeName, recipeImage, false);
 
+        //show completed
+        Toast.makeText(this, "Recipe created successfully!", Toast.LENGTH_SHORT).show();
+        finish();
     }
 }

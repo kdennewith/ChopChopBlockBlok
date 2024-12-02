@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             Fragment selectedFragment = null;
 
             if (item.getItemId() == R.id.home_page_icon) {
-                selectedFragment = new HomePage();
+               // selectedFragment = new HomePage();
+
             } else if (item.getItemId() == R.id.recipe_page_icon) {
                 selectedFragment = new RecipePage();
             } else if (item.getItemId() == R.id.new_recipe_page_icon) {

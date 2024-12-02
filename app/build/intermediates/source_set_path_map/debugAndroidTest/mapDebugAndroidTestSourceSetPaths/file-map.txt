@@ -1,6 +1,0 @@
-com.example.recipebookgui.test.app-core-1.5.0-0 C:\Users\kdenn\.gradle\caches\8.9\transforms\489e3e815a9b1936a1355262d8dc4ae1\transformed\core-1.5.0\res
-com.example.recipebookgui.test.app-annotation-experimental-1.4.1-1 C:\Users\kdenn\.gradle\caches\8.9\transforms\b0f7ed7cfb66be2daaf6b8a0f551defb\transformed\annotation-experimental-1.4.1\res
-com.example.recipebookgui.test.app-androidTest-2 C:\Users\kdenn\AndroidStudioProjects\RecipeBookGUI\app\build\generated\res\resValues\androidTest\debug
-com.example.recipebookgui.test.app-mergeDebugAndroidTestResources-3 C:\Users\kdenn\AndroidStudioProjects\RecipeBookGUI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.recipebookgui.test.app-mergeDebugAndroidTestResources-4 C:\Users\kdenn\AndroidStudioProjects\RecipeBookGUI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.recipebookgui.test.app-debugAndroidTest-5 C:\Users\kdenn\AndroidStudioProjects\RecipeBookGUI\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

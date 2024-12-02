@@ -5,6 +5,7 @@
     <color name="textSecondary">#E6E6E6</color>
     <color name="tint">#6B42B4</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">RecipeBookGUI</string>
     <string name="enter_recipe_name_new_recipe">Enter Recipe Name</string>
     <string name="favorite">Favorite</string>
